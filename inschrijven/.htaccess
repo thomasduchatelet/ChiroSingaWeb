@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^inschrijven\.chirosinga\.be$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.inschrijven\.chirosinga\.be$
+RewriteRule ^/?$ "https\:\/\/docs\.google\.com\/spreadsheets\/d\/1c8gGVbmKYCiUaKa5REhfpvsDuIiR4bPQnA922a9_ofk\/edit\?usp\=sharing" [R=301,L]
+

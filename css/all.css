@@ -1,0 +1,441 @@
+/*----------------------*/
+/*   GENERAL ELEMENTS   */
+/*----------------------*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: url("../images/TEXTURE_01.jpg");
+    font-family: georgia, helvetica, serif;
+    font-size: 62.5%;
+    font-style: italic;
+    color: #2e4058;
+}
+
+#container
+{
+    position: relative;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*----------------------*/
+/*        SLIDER        */
+/*----------------------*/
+
+.nivoSlider
+{
+    position:relative;
+}
+
+.nivoSlider img
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+
+.nivoSlider a
+{
+    border:0;
+    display:block;
+}
+
+/*----------------------*/
+/*    CONTENT BLOCK     */
+/*----------------------*/
+
+#content
+{
+    background-image: url("../images/TEXTURE_02.jpg");
+    overflow: hidden;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+
+h1 > span
+{
+    display: block;
+    visibility: hidden;
+    height: 0px;
+}
+
+/*----------------------*/
+/*      NAVIGATION      */
+/*----------------------*/
+
+#navigatie
+{
+	text-align: center;
+}
+
+#navigatie li > a
+{
+	float: left;
+    display: inline-block;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: #2e4058;
+    background-color: #ffaa00;
+    margin-bottom: 20px;
+    margin-left: 1px;
+    width: 145px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+#navigatie li > a:hover, #navigatie .current
+{
+    background-color: #feca61;
+}
+
+#navigatie ul
+{
+    margin-bottom: 10px;
+}
+
+#navigatie li
+{
+    display: inline-block;
+}
+
+/*----------------------*/
+/*      ITEM BLOCK      */
+/*----------------------*/
+
+.item
+{
+    float: left;
+    overflow: auto;
+    padding: 10px;
+    height: auto;
+    width: 890px;
+    margin-bottom: 10px;
+}
+
+h2
+{
+    font-size: 3.3em;
+    font-style: italic;
+    color: #ffaa00;
+    margin-bottom: 20px;
+}
+
+#extraspace
+{
+	margin-top: 50px;
+}
+
+h3
+{
+    font-size: 2em;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+p
+{
+    font-family: helvetica, sans-serif;
+    font-size: 1.4em;
+    font-style: normal;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+
+p > span
+{
+    font-weight: bold;
+}
+
+.tekstSmal
+{
+    width: 545px;
+    padding: 10px;
+}
+
+.datum
+{
+    float: left;
+    background-image: url("../images/DATUMBLAD.png");
+    width: 185px;
+    height: 250px;
+    text-align: center;
+    color: #000000;
+}
+
+.dag
+{
+    font-size: 10em;
+    padding-top: 55px;
+}
+
+.maand
+{
+    font-size: 2.5em;
+    margin-top: 5px;
+}
+
+.nieuws
+{
+    width: 675px;
+    float: right;
+}
+
+.nieuws ul
+{
+    font-family: helvetica, sans-serif;
+    font-size: 1.4em;
+    font-style: normal;
+    margin-bottom: 15px;
+}
+
+.nieuws ul
+{
+    margin-left: 50px;
+}
+
+.nieuws li
+{
+    margin-bottom: 5px;
+}
+
+a
+{
+	color: #ffaa00;
+}
+
+/*----------------------*/
+/*        SINGA         */
+/*----------------------*/
+
+#singalinks, #archieflinks
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#singalinks li, #archieflinks li
+{
+    margin-bottom: 11px;
+    list-style-type: none;
+}
+
+#singalinks li
+{
+    display: inline-block;
+}
+
+#singalinks a, #archieflinks a
+{
+    font-size: 1.6em;
+    text-decoration: none;
+    color: #2e4058;
+    background-color: #ffaa00;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+}
+
+#singalinks a:hover, #archieflinks a:hover
+{
+    background-color: #feca61;
+}
+
+#singalinks .current
+{
+    background-color: #feca61;
+}
+
+#archieflinks
+{
+    padding-top: 20px;
+}
+
+#archieflinks a
+{
+    background-color: #2e4058;
+    color: #ffaa00;
+}
+
+#archieflinks a:hover
+{
+    background-color: #2e4070;
+}
+
+/*----------------------*/
+/*     ACTIVITEITEN     */
+/*----------------------*/
+
+.kalenderitem
+{
+	display: block;
+    float: left;
+    overflow: auto;
+    padding: 10px;
+    height: auto;
+    width: 435px;
+    margin-bottom: 10px;
+}
+
+.dagblad
+{
+    float: left;
+    background-image: url("../images/DAGBLAD.png");
+    width: 105px;
+    height: 125px;
+    text-align: center;
+}
+
+.dagblad > div
+{
+    font-size: 4em;
+    padding-top: 52px;
+}
+
+/*----------------------*/
+/*       FOTOLINKS      */
+/*----------------------*/
+
+#fotolinks
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#fotolinks li
+{
+    display: inline-block;
+    margin-right: 1px;
+    margin-bottom: 11px;
+    list-style-type: none;
+}
+
+#fotolinks a
+{
+    font-size: 1.6em;
+    text-decoration: none;
+    color: #2e4058;
+    background-color: #ffaa00;
+    padding-top: 4px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+}
+
+#fotolinks a:hover
+{
+    background-color: #feca61;
+}
+
+#fotolinks .jaarlink a
+{
+    background-color: #2e4058;
+    color: #ffaa00;
+}
+
+/*----------------------*/
+/*          SOL         */
+/*----------------------*/
+
+#SOL
+{
+	position: absolute;
+	top: 275px;
+	left: 625px;
+}
+
+/*----------------------*/
+/*         TABLE        */
+/*----------------------*/
+
+table
+{
+    width: 600px;
+    font-size: 1.4em;
+    margin-left: 175px;
+    padding: 10px;
+}
+
+td, th
+{
+    padding-bottom: 15px;
+}
+
+td > img
+{
+    border: 1px solid #ffaa00;
+    width: 150px;
+    height: 150px;
+}
+
+th
+{
+    width: 100px;
+    text-align: left;
+}
+
+tfoot
+{
+    text-align: center;
+}
+
+.tabelafdeling
+{
+    font-size: 1.8em;
+    height: 75px;
+}
+
+/*----------------------*/
+/*        FOOTER        */
+/*----------------------*/
+
+#footer
+{
+	display: block;
+	width: 890px;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#footer > a
+{
+    text-decoration: none;
+    color: #2e4058;
+}
+
+#footer > a:hover
+{
+    text-decoration: underline;
+}
+
+#toTop
+{
+    font-size: 1.4em;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffaa00;
+    color: #2e4058;
+	width: 120px;
+    padding: 5px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+#toTop:hover
+{
+    background-color: #feca61;
+}
